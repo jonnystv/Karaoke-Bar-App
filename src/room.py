@@ -24,3 +24,9 @@ class Room:
     
     def add_song(self, song):
         self.songs.append(song)
+
+
+    #Second Methods
+
+    def check_in_guests_from_list(self, guests_from_list):
+        self.guests.extend(guests_from_list)  
